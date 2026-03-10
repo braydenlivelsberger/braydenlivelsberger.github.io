@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript test</title>
+</head>
+
+<body>
+    <img src="r.jpg" width=200px onclick="addscore()">
+    <div id="scorebox">0</div>
+    <button onclick="buyMulti()">buy upgrade</button>
+    <button onclick="buyAutoclick()">buy auto click</button>
+    <button onclick="buymoreautoclick()">buy more auto</button>
+</body>
+
+<script>
+    var name = prompt("whats is your name")
+    if (name == "mason") {
+        document.write("hey! you owe me five dollars!")
+    } else {
+        document.write("hello, " + name + "!")
+    }
+
+
+    var score = 0
+    var multiplier = 1.0;
+    var autoclickamount = 0;
+    var scorebox = document.getElementById("scorebox")
+
+
+
+
+
+
+    function addscore() {
+        score = score + multiplier;
+        scorebox.innerHTML = score
+    }
+
+    function buyMulti() {
+        if (score >= (multiplier * 10)) {
+            score = score - (multiplier * 10)
+            multiplire = multiplier + 0.1;
+            scorebox.innerHTML = score
+        }
+    }
+
+
+    function buyAutoclick() {
+        if (score >= (multiplier * 10)) {
+            score = score - (multiplier * 10)
+            multiplire = multiplier + 0.1;
+            scorebox.innerHTML = score
+        }
+        if (autoclickamount == 0) {
+            autoclickamount = 1;
+            setInterval(
+                () => {
+                    score = score + autoclickamount;
+                    scorebox.innerHTML = score
+                },
+                1000
+            )
+        }
+    }
+    function buymoreautoclick() {
+        if (score >= (multiplier * 10)) {
+            score = score - (multiplier * 10)
+            multiplire = multiplier + 0.1;
+            scorebox.innerHTML = score
+        }
+        if (autoclickamount == 0) {
+            autoclickamount = 1;
+            setInterval(
+                () => {
+                    score = score + autoclickamount;
+                    scorebox.innerHTML = score
+                },
+                1000
+            )
+        }
+        else{
+            
+        }
+    }
+
+
+
+</script>
+
+</html>
