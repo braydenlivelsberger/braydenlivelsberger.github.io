@@ -92,7 +92,7 @@ body {
     width: 96px;
     height: 96px;
     border: 12px solid rgba(255, 255, 255, 0.25);
-    border-top: 12px solid rgba(255, 255, 255, 1);
+    border-top: 12px solid rgb(179, 93, 93);
     animation: fadein 2s ease, spin 1.5s linear infinite;
 }
 @keyframes fadein {
