@@ -102,15 +102,63 @@ body {
     20% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
 }
+
+
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title><style>body {
+    background-color: rgb(14, 1, 1);
+}
+
+div {
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid rgb(238, 233, 233)
+}
+
+#siteContent {
+    background-color: rgb(238, 234, 232);
+    width: 80%;
+    margin: auto;
+}
+
+#header {
+    font-size: larger;
+}
+
+#navBar {
+    background-color: rgb(220, 221, 230);
+}
+
+.navlink {
+    background-color: rgb(238, 231, 238);
+}
+
+.article {
+    background-color: rgb(255, 255, 255);
+}
+
+.articleHeader {
+    background-color: rgb(255, 255, 255);
+}
+
+.articlecontent {
+    background-color: rgb(46, 95, 95);
+}
+
+</style></head><body><div id="siteContent"><div id="header">Brayden Livelsbergers website all about the miami dolphins</div><div id="navBar"></div><a href="https://cash.app/$bubbyjames0711">help me buy new baseball cleats</a><a href="https://www.cbssports.com/nfl/news/tyreek-hill-released-dolphins-wr-contract/">link to tyreek hill injury</a><div class="navLink">https: //www.pro-football-reference.com/teams/mia/1972_roster.htm</div>
+
+<div class="article"></div><div class="articleHeader"><h2>when the dolphins realesd tyreek hill everyone was suprised because he was are best wide recevier</h2></div><div class="articlecontent"><h2>The miami dolphins curretnly have two super bowls and are the only tem to go undefeted in the whole entire NFL it was the season of 1972.</h2></div><div class="article"></div><div class="articleHeader"><h2>When tyreek hill snapped his leg last year we planned to keep him but once we got a new head coach we released him into free agency when we started the rumor of relasing him every dolphins fan was upset.</h2></div><div class="articlecontent"><h2>dan marino was one of the best QBs in dolphins history until this kid came in called tua then he led us to the playoffs then he got 4 councussions then nobody belived in him anymore</h2></div></div></body></html>
